@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Geddes";
+    src: url("../font/Geddes.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Blairesque";
+    src: url("../font/Blairesque.ttf") format("truetype");
+}
+
+body{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heure
+{
+    color: white;
+    font-family: "Blairesque", "Comic Sans MS", "Times New Roman", "sans-serif";
+    font-size: 100px;
+    text-shadow: 4px 4px 5px rgba(12,23,25,0.65);
+}
+
+.date
+{
+    color: white;
+    font-family: "Geddes", "Comic Sans MS", "Times New Roman", "sans-serif";
+    font-size: 50px;
+    text-shadow: 4px 4px 5px rgba(12,23,25,0.65);
+}
